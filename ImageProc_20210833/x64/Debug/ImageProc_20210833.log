@@ -1,0 +1,74 @@
+﻿  ImageProc_20210833.cpp
+  ImageProc_20210833Doc.cpp
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(44,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(195,5): error C2665: 'strchr': 2개의 오버로드 중 모든 인수 형식을 변환할 수 있는 오버로드가 없습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(500,28): message : 'char *strchr(char *const ,const int)'일 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_string.h(70,38): message : 또는       'const char *strchr(const char *,int)'
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(195,5): message : 인수 목록 '(CString, char)'을(를) 일치시키는 동안
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(196,1): error C2665: 'strchr': 2개의 오버로드 중 모든 인수 형식을 변환할 수 있는 오버로드가 없습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(500,28): message : 'char *strchr(char *const ,const int)'일 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_string.h(70,38): message : 또는       'const char *strchr(const char *,int)'
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(196,1): message : 인수 목록 '(CString, char)'을(를) 일치시키는 동안
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(198,25): error C2664: 'LPTSTR CArchive::ReadString(LPTSTR,UINT)': 인수 1을(를) 'char [16]'에서 'LPTSTR'(으)로 변환할 수 없습니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(198,17): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(1615,9): message : 'CArchive::ReadString' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(200,26): error C2664: 'LPTSTR CArchive::ReadString(LPTSTR,UINT)': 인수 1을(를) 'char [256]'에서 'LPTSTR'(으)로 변환할 수 없습니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(200,18): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(1615,9): message : 'CArchive::ReadString' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(205,26): error C2664: 'LPTSTR CArchive::ReadString(LPTSTR,UINT)': 인수 1을(를) 'char [256]'에서 'LPTSTR'(으)로 변환할 수 없습니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(205,18): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(1615,9): message : 'CArchive::ReadString' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(212,10): error C2665: 'strchr': 2개의 오버로드 중 모든 인수 형식을 변환할 수 있는 오버로드가 없습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(500,28): message : 'char *strchr(char *const ,const int)'일 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_string.h(70,38): message : 또는       'const char *strchr(const char *,int)'
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(212,10): message : 인수 목록 '(CString, char)'을(를) 일치시키는 동안
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(214,3): error C2065: 'imageWidth': 선언되지 않은 식별자입니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(215,3): error C2065: 'imageHeight': 선언되지 않은 식별자입니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(218,10): error C2665: 'strchr': 2개의 오버로드 중 모든 인수 형식을 변환할 수 있는 오버로드가 없습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(500,28): message : 'char *strchr(char *const ,const int)'일 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime_string.h(70,38): message : 또는       'const char *strchr(const char *,int)'
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.cpp(218,10): message : 인수 목록 '(CString, char)'을(를) 일치시키는 동안
+  ImageProc_20210833View.cpp
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(300,33): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(330,9): error C2039: 'LoadSecondImageFile': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(335,25): error C2039: 'imageHeight': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(336,26): error C2039: 'imageWidth': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(340,12): error C2039: 'resultImg': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(340,42): error C2039: 'inputImg': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(340,71): error C2039: 'inputImg2': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(344,12): error C2039: 'resultImg': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(344,50): error C2039: 'inputImg': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(344,87): error C2039: 'inputImg2': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(345,12): error C2039: 'resultImg': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(345,50): error C2039: 'inputImg': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(345,87): error C2039: 'inputImg2': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(346,12): error C2039: 'resultImg': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(346,50): error C2039: 'inputImg': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(346,87): error C2039: 'inputImg2': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(397,12): error C2065: 'pDoc': 선언되지 않은 식별자입니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(401,30): error C2039: 'OnPixelTwoImageSub': 'CImageProc20210833View'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.h(8): message : 'CImageProc20210833View' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(404,29): error C3861: 'GetDocument': 식별자를 찾을 수 없습니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(406,2): error C3861: 'LoadTwoImage': 식별자를 찾을 수 없습니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(412,22): error C2039: 'InputImag': 'CImageProc20210833Doc'의 멤버가 아닙니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833Doc.h(9): message : 'CImageProc20210833Doc' 선언을 참조하십시오.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(412,59): error C2143: 구문 오류: ')'이(가) ';' 앞에 없습니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(420,2): error C3861: 'Invalidate': 식별자를 찾을 수 없습니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(423,1): warning C4138: '*/'가 주석 외부에 있습니다.
+D:\영상처리\Projects\ImageProc_20210833\ImageProc_20210833View.cpp(423,2): error C2059: 구문 오류: '/'
+  코드를 생성하고 있습니다...
